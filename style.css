@@ -1,0 +1,289 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: white; 
+}
+
+
+/* HOME PAGE */
+
+#imageCredit{
+  font-family:'Signika',sans-serif;
+  font-size:15px;
+  color:gray;
+  margin-left:3%;
+}
+
+#mainFire{
+  width:120%;
+  margin-left:3%;
+  margin-top:3%;
+  border-style:solid;
+  border-image:linear-gradient(45deg,red,darkorange)1;
+  border-width:5px;
+  margin-right:3%;
+}
+
+.grid-container0{
+  display: grid;
+  grid-row-gap:4.5%;
+  grid-template-columns:auto;
+  justify-content:space-evenly;
+  font-family:'Signika',sans-serif;
+  font-size:27px;
+  text-align:center;
+  margin-top:3%;
+  margin-right:5%;
+  align-items:center;
+  font-weight:bold;
+}
+
+.grid-item01{
+  padding:2%;
+  grid-row:1/span 1;
+  grid-column:1/span 1;
+  background-color:rgba(248, 159, 50, 0.76);
+  border-radius:10px;
+}
+
+.grid-item02{
+  padding:2%;
+  grid-row:2/span 1;
+  grid-column:1/span 1;
+  background-color:rgba(248, 159, 50, 0.76);
+  border-radius:10px;
+}
+
+.grid-item03{
+  padding:2%;
+  grid-row:3/span 1;
+  grid-column:1/span 1;
+  background-color:rgba(248, 159, 50, 0.76);
+  border-radius:10px;
+}
+
+.homePage{
+  display:flex;
+}
+
+.factGenRect{
+  color:gainsboro;
+  background-color:gainsboro;
+  z-index:5;
+  float:center;
+  width:60%;
+  height:200px;
+  margin-left:20%;
+  margin-right:20%;
+  margin-top:2%;
+  border-radius:10px;
+  border:2px solid black;
+}
+
+#factGenButton{
+  position:relative;
+  font-family: 'Signika Negative', sans-serif;
+  text-align:center;
+  font-size:20px;
+  font-weight:bold;
+  color:black;
+  z-index:9;
+  left:50%;
+  top:-175px;
+  transform: translate(-50%, -50%);
+}
+
+#factGenText{
+  position:relative;
+  font-family:'Signika Negative',sans-serif;
+  text-align:center;
+  color:black;
+  z-index:10;
+  left:50%;
+  top:-135px;
+  transform:translate(-50%,-50%);
+  font-size:30px;
+  max-width:55%;
+}
+
+/* STYLE TEXT */
+
+.grid-container1{
+  display: grid;
+  grid-column-gap:3%;
+  grid-template-columns:auto auto auto;
+  justify-content:space-evenly;
+  font-family:'Signika',sans-serif;
+  margin-left:3%;
+  margin-right:3%;
+  margin-top:1%;
+  font-size:22px;
+  text-align:center;
+}
+
+.grid-item11{
+  grid-column:1/2;
+}
+.grid-item12{
+  grid-column:2/3;
+}
+grid-item13{
+  grid-column:3/span 1;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-column-gap:3%;
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly;
+  font-family:'Signika',sans-serif;
+  margin-left:3%;
+  margin-right:3%;
+  margin-top:1%;
+  font-size:22px;
+  text-align:center;
+}
+
+.grid-item21 {
+  grid-column: 1 / 2;
+}
+
+.gird-item22{
+  grid-column:2/3;
+}
+
+.grid-item23{
+  grid-column:3/span 1;
+}
+
+
+
+/* STYLE "TAKE ACTION" PAGE HEADING */
+
+.firePic{
+  position:relative;
+  background-image:url("assets/fire.jpeg");
+  padding:80px;
+  font-size:1px;
+  border-style:solid;
+  border-image:linear-gradient(45deg,red,darkorange)1;
+  border-width:5px;
+  z-index:1;
+}
+.actionHeader{
+  position:absolute;
+  font-family: 'Signika Negative', sans-serif;
+  text-align:center;
+  font-size:70px;
+  font-weight:bold;
+  color:black;
+  z-index:9;
+  left:50%;
+  transform: translate(-50%, -50%);
+  top:150px;
+}
+.orangeRect{
+  position:absolute;
+  background-color:darkorange;
+  height:100px;
+  z-index:5;
+  float:center;
+  width:50%;
+  top:150px;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+
+
+/* STYLE IMAGES */
+
+#houseFire{
+  margin-left:7.5%;
+  margin-top:2%;
+  max-width:90%;
+  max-height:90%;
+}
+
+#prevent{
+  margin-left:7.5%;
+  margin-top:2%;
+  max-width:90%;
+  max-height:90%;
+}
+
+#donate{
+  margin-left:7.5%;
+  margin-top:2%;
+  max-width:90%;
+  max-height:90%;
+}
+
+.actions1{
+  display: flex;
+}
+
+#houseFire:hover,#prevent:hover,#donate:hover{box-shadow:10px 10px darkorange;}
+
+#structures{
+  margin:1em;
+  max-width:90%;
+  max-height:90%;
+}
+#climateChange{
+  margin:1em;
+  max-width:90%;
+  max-height:90%;
+}
+#cali{
+  margin:1em;
+  max-width:90%;
+  max-height:90%;
+}
+.learnMore1{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+#structures:hover,#climateChange:hover,#cali:hover{box-shadow:10px 10px darkorange;} 
+
+
+/* STYLE NAV BAR */
+
+ul{
+  list-style-type:none;
+  background-color:black;
+  overflow:hidden;
+  padding:0.9em;
+  text-align:right;
+}
+
+li{
+  display:inline;
+}
+
+li a{
+  font-family: 'Signika Negative', sans-serif;
+  font-size:30px;
+  padding:10px;
+  text-decoration:none;
+  color:white;
+  font-weight:bold;
+}
+
+li a:hover{
+  border-bottom-style:solid;
+  border-bottom-color:darkorange;
+  color:darkorange;
+}
+
+
+
+
+
+
+/* STYLE BUTTONS */
+
